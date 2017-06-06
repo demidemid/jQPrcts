@@ -58,3 +58,57 @@ body {
   width: 100%; /* ширина на всю страницу */
   z-index: 9; /* z-index для перекрытия остальных элементов */
 }
+
+
+/*TABS*/
+
+.tabs {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.tabs > div {
+  padding-top: 10px;
+}
+
+.tabs ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tabs ul:after {
+  content: "";
+  display: block;
+  position: relative;
+  clear: both;
+  height: 2px;
+  background: blue;
+  left: -20px;
+}
+
+.tabs ul li {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  padding: 10px 15px;
+  background: #fff;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.tabs ul li.active, .tabs ul li.active:hover {
+  background: blue;
+  color: #fff;
+}
+
+.tabs ul li:hover {
+  background: #d6d6d7;
+}
+
+div > img {
+  padding: 0 20px;
+}
