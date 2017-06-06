@@ -1,5 +1,10 @@
+body {
+  min-width: 1280px;
+  margin: 0;
+}
+
 .main-block {
-  width: 100%;
+  margin: 0 auto;
   padding: 30px 20px;
   background-color: blue;
   border: 2px solid red;
