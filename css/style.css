@@ -1,8 +1,8 @@
 .main-block {
   width: 100%;
   padding: 30px 20px;
-  background-color: red;
-  border: 2px solid green;
+  background-color: blue;
+  border: 2px solid red;
 }
 
 .logo {
@@ -29,7 +29,7 @@
 .popup {
   display: none;
   position: fixed;
-  width: 65%;
+  width: 55%;
   padding: 30px 20px;
 
   top: 50%;
