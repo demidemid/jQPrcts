@@ -8,4 +8,4 @@ $(document).ready(function(){
   });
 });
 
- $(".tel").mask("+7 (999) 999-9999",{placeholder:"+7 (___) ___-____"});
+ $(".tel").mask("+7 (999) 999-9999");
