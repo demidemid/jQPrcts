@@ -101,7 +101,7 @@ body {
 }
 
 .tabs ul li.active, .tabs ul li.active:hover {
-  background: blue;
+  background: red;
   color: #fff;
 }
 
